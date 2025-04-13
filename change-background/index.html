@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: white;
+    }
+    .tile {
+        border: 2px solid white;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+    }
+    #blue {
+        background-color: blue;
+    }  
+    #yellow {
+        background-color: yellow;
+    }
+    #green {
+        background-color: green;
+    }   
+    #pink {
+        background-color: pink;
+    }
+</style>
+<body>
+    <div>
+        <h1>Click on any of the tile, and witness the magic</h1>
+        <div class="tile" id="blue"></div>
+        <div class="tile" id="yellow"></div>
+        <div class="tile" id="green"></div>
+        <div class="tile" id="pink"></div>
+    </div>
+</body>
+<script type="module" src="index.js"></script>
+</html>
