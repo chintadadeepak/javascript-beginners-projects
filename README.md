@@ -6,6 +6,7 @@ learning javascript and doing some basic level projects
 
 ## demo projects which deals with basic level events and dom manipulation, you can find the source code in this repo itself. Happy Coding :-)
 
+
 ## first project source code
 
 ```const tiles = document.querySelectorAll(".tile");
@@ -80,3 +81,5 @@ clock.addEventListener("click", function (e) {
   }, 1000);
 });
 ```
+=======
+>>>>>>> 8f592fe510c3d3053b62adbde7ec27240ef92ecb
